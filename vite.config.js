@@ -12,5 +12,15 @@ export default defineConfig({
   resolve: {
     extensions: ['.js', '.jsx']
   },
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    rollupOptions: {
+      output: {
+        assetFileNames: 'assets/[name][extname]'
+      }
+    }
+  },
+  base: '/', // Ensures assets like favicons are served from the root
   logLevel: 'info'
 });
