@@ -96,7 +96,7 @@ const Home = () => {
       <div className="hero">
         <h1>SymbioEngine</h1>
         <h2>Evolve Your Crypto Destiny</h2>
-        <h3>]</h3>
+        <h3></h3>
         <div className="button-group">
           <button className="evolve-btn" onClick={() => navigate('/evolve')}>
             Begin Evolution
